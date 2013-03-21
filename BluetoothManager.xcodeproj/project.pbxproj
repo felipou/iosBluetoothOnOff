@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		558648F116FBC35D002592C0 /* bluetooth_icon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 558648F016FBC35D002592C0 /* bluetooth_icon_57.png */; };
+		558648F316FBC361002592C0 /* bluetooth_icon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 558648F216FBC361002592C0 /* bluetooth_icon_114.png */; };
+		558648F516FBC9D2002592C0 /* pattern_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 558648F416FBC9D2002592C0 /* pattern_bg.png */; };
+		558648F716FBCA1E002592C0 /* pattern_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 558648F616FBCA1E002592C0 /* pattern_bg@2x.png */; };
 		55F8418216FB4C1500C4F740 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F8418116FB4C1500C4F740 /* UIKit.framework */; };
 		55F8418416FB4C1500C4F740 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F8418316FB4C1500C4F740 /* Foundation.framework */; };
 		55F8418616FB4C1500C4F740 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F8418516FB4C1500C4F740 /* CoreGraphics.framework */; };
@@ -24,6 +28,16 @@
 		55F841AB16FB4C1700C4F740 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F8418316FB4C1500C4F740 /* Foundation.framework */; };
 		55F841B316FB4C1700C4F740 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55F841B116FB4C1700C4F740 /* InfoPlist.strings */; };
 		55F841B616FB4C1700C4F740 /* BluetoothManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F841B516FB4C1700C4F740 /* BluetoothManagerTests.m */; };
+		55F841CF16FB4D4C00C4F740 /* BluetoothManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F841CE16FB4D4C00C4F740 /* BluetoothManager.framework */; };
+		55F841D516FB8D8300C4F740 /* button-blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F841D416FB8D8300C4F740 /* button-blue@2x.png */; };
+		55F841D716FB8DB400C4F740 /* button-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F841D616FB8DB400C4F740 /* button-blue.png */; };
+		55F841DE16FB932100C4F740 /* button-green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F841D816FB932100C4F740 /* button-green@2x.png */; };
+		55F841DF16FB932100C4F740 /* button-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F841D916FB932100C4F740 /* button-green.png */; };
+		55F841E016FB932100C4F740 /* button-red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F841DA16FB932100C4F740 /* button-red@2x.png */; };
+		55F841E116FB932100C4F740 /* button-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F841DB16FB932100C4F740 /* button-red.png */; };
+		55F841E216FB932100C4F740 /* button-gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F841DC16FB932100C4F740 /* button-gray@2x.png */; };
+		55F841E316FB932100C4F740 /* button-gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F841DD16FB932100C4F740 /* button-gray.png */; };
+		55F841E716FBB98200C4F740 /* bluetooth_file_exchange.psd in Resources */ = {isa = PBXBuildFile; fileRef = 55F841E616FBB98200C4F740 /* bluetooth_file_exchange.psd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		558648F016FBC35D002592C0 /* bluetooth_icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluetooth_icon_57.png; sourceTree = "<group>"; };
+		558648F216FBC361002592C0 /* bluetooth_icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluetooth_icon_114.png; sourceTree = "<group>"; };
+		558648F416FBC9D2002592C0 /* pattern_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pattern_bg.png; sourceTree = "<group>"; };
+		558648F616FBCA1E002592C0 /* pattern_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pattern_bg@2x.png"; sourceTree = "<group>"; };
 		55F8417E16FB4C1500C4F740 /* BluetoothManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F8418116FB4C1500C4F740 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		55F8418316FB4C1500C4F740 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,6 +78,20 @@
 		55F841B216FB4C1700C4F740 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55F841B416FB4C1700C4F740 /* BluetoothManagerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BluetoothManagerTests.h; sourceTree = "<group>"; };
 		55F841B516FB4C1700C4F740 /* BluetoothManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothManagerTests.m; sourceTree = "<group>"; };
+		55F841C616FB4C3200C4F740 /* BluetoothAudioJack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothAudioJack.h; sourceTree = "<group>"; };
+		55F841C716FB4C3200C4F740 /* BluetoothDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothDevice.h; sourceTree = "<group>"; };
+		55F841C816FB4C3200C4F740 /* BluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothManager.h; sourceTree = "<group>"; };
+		55F841C916FB4C3200C4F740 /* CDStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStructures.h; sourceTree = "<group>"; };
+		55F841CE16FB4D4C00C4F740 /* BluetoothManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BluetoothManager.framework; path = System/Library/PrivateFrameworks/BluetoothManager.framework; sourceTree = SDKROOT; };
+		55F841D416FB8D8300C4F740 /* button-blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-blue@2x.png"; path = "BluetoothManager/iOS-BluetoothManager-Headers/button-blue@2x.png"; sourceTree = "<group>"; };
+		55F841D616FB8DB400C4F740 /* button-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-blue.png"; path = "BluetoothManager/button-blue.png"; sourceTree = "<group>"; };
+		55F841D816FB932100C4F740 /* button-green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-green@2x.png"; path = "BluetoothManager/button-green@2x.png"; sourceTree = "<group>"; };
+		55F841D916FB932100C4F740 /* button-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-green.png"; path = "BluetoothManager/button-green.png"; sourceTree = "<group>"; };
+		55F841DA16FB932100C4F740 /* button-red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-red@2x.png"; path = "BluetoothManager/button-red@2x.png"; sourceTree = "<group>"; };
+		55F841DB16FB932100C4F740 /* button-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-red.png"; path = "BluetoothManager/button-red.png"; sourceTree = "<group>"; };
+		55F841DC16FB932100C4F740 /* button-gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-gray@2x.png"; path = "BluetoothManager/button-gray@2x.png"; sourceTree = "<group>"; };
+		55F841DD16FB932100C4F740 /* button-gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-gray.png"; path = "BluetoothManager/button-gray.png"; sourceTree = "<group>"; };
+		55F841E616FBB98200C4F740 /* bluetooth_file_exchange.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = bluetooth_file_exchange.psd; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F841CF16FB4D4C00C4F740 /* BluetoothManager.framework in Frameworks */,
 				55F8418216FB4C1500C4F740 /* UIKit.framework in Frameworks */,
 				55F8418416FB4C1500C4F740 /* Foundation.framework in Frameworks */,
 				55F8418616FB4C1500C4F740 /* CoreGraphics.framework in Frameworks */,
@@ -89,6 +122,7 @@
 		55F8417516FB4C1500C4F740 = {
 			isa = PBXGroup;
 			children = (
+				55F841EC16FBBACA00C4F740 /* ImageResources */,
 				55F8418716FB4C1600C4F740 /* BluetoothManager */,
 				55F841AE16FB4C1700C4F740 /* BluetoothManagerTests */,
 				55F8418016FB4C1500C4F740 /* Frameworks */,
@@ -108,6 +142,7 @@
 		55F8418016FB4C1500C4F740 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				55F841CE16FB4D4C00C4F740 /* BluetoothManager.framework */,
 				55F8418116FB4C1500C4F740 /* UIKit.framework */,
 				55F8418316FB4C1500C4F740 /* Foundation.framework */,
 				55F8418516FB4C1500C4F740 /* CoreGraphics.framework */,
@@ -119,6 +154,7 @@
 		55F8418716FB4C1600C4F740 /* BluetoothManager */ = {
 			isa = PBXGroup;
 			children = (
+				55F841C516FB4C3200C4F740 /* iOS-BluetoothManager-Headers */,
 				55F8419016FB4C1600C4F740 /* AppDelegate.h */,
 				55F8419116FB4C1600C4F740 /* AppDelegate.m */,
 				55F8419916FB4C1700C4F740 /* MainStoryboard_iPhone.storyboard */,
@@ -161,6 +197,37 @@
 				55F841B116FB4C1700C4F740 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55F841C516FB4C3200C4F740 /* iOS-BluetoothManager-Headers */ = {
+			isa = PBXGroup;
+			children = (
+				55F841C616FB4C3200C4F740 /* BluetoothAudioJack.h */,
+				55F841C716FB4C3200C4F740 /* BluetoothDevice.h */,
+				55F841C816FB4C3200C4F740 /* BluetoothManager.h */,
+				55F841C916FB4C3200C4F740 /* CDStructures.h */,
+			);
+			path = "iOS-BluetoothManager-Headers";
+			sourceTree = "<group>";
+		};
+		55F841EC16FBBACA00C4F740 /* ImageResources */ = {
+			isa = PBXGroup;
+			children = (
+				558648F616FBCA1E002592C0 /* pattern_bg@2x.png */,
+				558648F416FBC9D2002592C0 /* pattern_bg.png */,
+				558648F216FBC361002592C0 /* bluetooth_icon_114.png */,
+				558648F016FBC35D002592C0 /* bluetooth_icon_57.png */,
+				55F841E616FBB98200C4F740 /* bluetooth_file_exchange.psd */,
+				55F841D816FB932100C4F740 /* button-green@2x.png */,
+				55F841D916FB932100C4F740 /* button-green.png */,
+				55F841DA16FB932100C4F740 /* button-red@2x.png */,
+				55F841DB16FB932100C4F740 /* button-red.png */,
+				55F841DC16FB932100C4F740 /* button-gray@2x.png */,
+				55F841DD16FB932100C4F740 /* button-gray.png */,
+				55F841D616FB8DB400C4F740 /* button-blue.png */,
+				55F841D416FB8D8300C4F740 /* button-blue@2x.png */,
+			);
+			name = ImageResources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +307,18 @@
 				55F8419816FB4C1700C4F740 /* Default-568h@2x.png in Resources */,
 				55F8419B16FB4C1700C4F740 /* MainStoryboard_iPhone.storyboard in Resources */,
 				55F8419E16FB4C1700C4F740 /* MainStoryboard_iPad.storyboard in Resources */,
+				55F841D516FB8D8300C4F740 /* button-blue@2x.png in Resources */,
+				55F841D716FB8DB400C4F740 /* button-blue.png in Resources */,
+				55F841DE16FB932100C4F740 /* button-green@2x.png in Resources */,
+				55F841DF16FB932100C4F740 /* button-green.png in Resources */,
+				55F841E016FB932100C4F740 /* button-red@2x.png in Resources */,
+				55F841E116FB932100C4F740 /* button-red.png in Resources */,
+				55F841E216FB932100C4F740 /* button-gray@2x.png in Resources */,
+				55F841E316FB932100C4F740 /* button-gray.png in Resources */,
+				558648F116FBC35D002592C0 /* bluetooth_icon_57.png in Resources */,
+				558648F316FBC361002592C0 /* bluetooth_icon_114.png in Resources */,
+				558648F516FBC9D2002592C0 /* pattern_bg.png in Resources */,
+				558648F716FBCA1E002592C0 /* pattern_bg@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55F841B316FB4C1700C4F740 /* InfoPlist.strings in Resources */,
+				55F841E716FBB98200C4F740 /* bluetooth_file_exchange.psd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +475,10 @@
 		55F841BA16FB4C1700C4F740 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BluetoothManager/BluetoothManager-Prefix.pch";
 				INFOPLIST_FILE = "BluetoothManager/BluetoothManager-Info.plist";
@@ -406,6 +490,10 @@
 		55F841BB16FB4C1700C4F740 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BluetoothManager/BluetoothManager-Prefix.pch";
 				INFOPLIST_FILE = "BluetoothManager/BluetoothManager-Info.plist";
@@ -467,6 +555,7 @@
 				55F841BB16FB4C1700C4F740 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55F841BC16FB4C1700C4F740 /* Build configuration list for PBXNativeTarget "BluetoothManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +564,7 @@
 				55F841BE16FB4C1700C4F740 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

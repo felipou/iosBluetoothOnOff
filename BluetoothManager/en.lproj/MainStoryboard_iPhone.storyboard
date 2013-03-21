@@ -1,23 +1,106 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2519" systemVersion="12A206j" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1856"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--View Controller-->
         <scene sceneID="5">
             <objects>
                 <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="pattern_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="mLg-St-Vzs"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aaj-pq-ya0">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="button-blue.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onoffButtonPressed:" destination="2" eventType="touchUpInside" id="MCm-H9-Nxn"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XNg-nQ-AhB">
+                                <connections>
+                                    <action selector="switchChanged:" destination="2" eventType="valueChanged" id="3UJ-gv-YzC"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Switch Bluetooth on launch" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d1W-Zw-eSD">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Bluetooth is" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eEL-xj-kMg">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="143" id="5T0-eu-VaA"/>
+                                    <constraint firstAttribute="height" constant="38" id="aDt-1n-DC8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="ON" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1gh-Ag-IJj">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="116" id="AdU-x9-zxG"/>
+                                    <constraint firstAttribute="width" constant="132" id="BHO-wS-2ro"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="52"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mLg-St-Vzs" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="1UJ-RF-V4d"/>
+                            <constraint firstItem="mLg-St-Vzs" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="8EE-WJ-4qf"/>
+                            <constraint firstItem="aaj-pq-ya0" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="9" id="NhH-nd-A6R"/>
+                            <constraint firstItem="aaj-pq-ya0" firstAttribute="leading" secondItem="d1W-Zw-eSD" secondAttribute="leading" type="default" id="R9P-du-X5K"/>
+                            <constraint firstItem="d1W-Zw-eSD" firstAttribute="centerY" secondItem="XNg-nQ-AhB" secondAttribute="centerY" type="default" id="ZGp-vx-ji5"/>
+                            <constraint firstAttribute="bottom" secondItem="XNg-nQ-AhB" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="aLR-2U-1Mp"/>
+                            <constraint firstItem="mLg-St-Vzs" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="bv1-z7-NeM"/>
+                            <constraint firstItem="eEL-xj-kMg" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="eq7-Xh-abd"/>
+                            <constraint firstItem="aaj-pq-ya0" firstAttribute="trailing" secondItem="XNg-nQ-AhB" secondAttribute="trailing" type="default" id="hdA-OE-PtI"/>
+                            <constraint firstItem="aaj-pq-ya0" firstAttribute="top" secondItem="3" secondAttribute="top" constant="86" id="iDW-i0-eaZ"/>
+                            <constraint firstItem="1gh-Ag-IJj" firstAttribute="trailing" secondItem="eEL-xj-kMg" secondAttribute="trailing" type="default" id="lcc-84-Uif"/>
+                            <constraint firstItem="eEL-xj-kMg" firstAttribute="centerX" secondItem="aaj-pq-ya0" secondAttribute="centerX" type="default" id="ouf-0M-bYW"/>
+                            <constraint firstItem="1gh-Ag-IJj" firstAttribute="centerY" secondItem="aaj-pq-ya0" secondAttribute="centerY" type="default" id="q7k-Qb-V6m"/>
+                            <constraint firstItem="mLg-St-Vzs" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="z8o-qn-Aob"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="onlaunchSwitch" destination="XNg-nQ-AhB" id="eAG-a2-nH5"/>
+                        <outlet property="onoffButton" destination="aaj-pq-ya0" id="jy9-Qp-04c"/>
+                        <outlet property="onoffLabel" destination="1gh-Ag-IJj" id="SRN-Ih-0HT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="button-blue.png" width="300" height="300"/>
+        <image name="pattern_bg.png" width="640" height="960"/>
+    </resources>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="onoffButtonPressed:"/>
+                <relationship kind="action" name="switchChanged:"/>
+                <relationship kind="outlet" name="onlaunchSwitch" candidateClass="UISwitch"/>
+                <relationship kind="outlet" name="onoffButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="onoffLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
